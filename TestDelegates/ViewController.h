@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SenderViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SenderViewControllerProtocol>
 
 
 @end

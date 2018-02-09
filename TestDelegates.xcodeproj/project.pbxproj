@@ -13,6 +13,7 @@
 		5F20E72E202DE71300C18005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F20E72D202DE71300C18005 /* Assets.xcassets */; };
 		5F20E731202DE71300C18005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F20E72F202DE71300C18005 /* LaunchScreen.storyboard */; };
 		5F20E734202DE71300C18005 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20E733202DE71300C18005 /* main.m */; };
+		5F20E73C202DE7BE00C18005 /* SenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20E73B202DE7BE00C18005 /* SenderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5F20E730202DE71300C18005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F20E732202DE71300C18005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F20E733202DE71300C18005 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F20E73A202DE7BE00C18005 /* SenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenderViewController.h; sourceTree = "<group>"; };
+		5F20E73B202DE7BE00C18005 /* SenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				5F20E72F202DE71300C18005 /* LaunchScreen.storyboard */,
 				5F20E732202DE71300C18005 /* Info.plist */,
 				5F20E733202DE71300C18005 /* main.m */,
+				5F20E73A202DE7BE00C18005 /* SenderViewController.h */,
+				5F20E73B202DE7BE00C18005 /* SenderViewController.m */,
 			);
 			path = TestDelegates;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F20E729202DE71300C18005 /* ViewController.m in Sources */,
+				5F20E73C202DE7BE00C18005 /* SenderViewController.m in Sources */,
 				5F20E734202DE71300C18005 /* main.m in Sources */,
 				5F20E726202DE71300C18005 /* AppDelegate.m in Sources */,
 			);
